@@ -60,9 +60,19 @@ function App() {
       <h1>나만의 To Do List</h1>
       <form onSubmit={addCard}>
         <div className="input-group">
-          <Input newLabel={'제목'} newValue={newTitle} setNewValue={setNewTitle} />
-          <Input newLabel={'내용'} newValue={newBody} setNewValue={setNewBody} />
-          <button type="submit" className="submit-button">작성하기</button>
+          <Input
+          newLabel={'제목'}
+          newValue={newTitle}
+          setNewValue={setNewTitle} />
+          <Input
+          newLabel={'내용'}
+          newValue={newBody}
+          setNewValue={setNewBody} />
+          <button
+          type="submit"
+          className="submit-button">
+            작성하기
+          </button>
         </div>
       </form>
 
