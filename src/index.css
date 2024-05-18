@@ -5,6 +5,18 @@
   margin: 0 auto;
 }
 
+/* 폰트 */
+@font-face {
+  font-family: 'AppleSDGothicNeoEB';
+  src: url('../fonts/AppleSDGothicNeoEB.ttf') format('truetype'),;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'AppleSDGothicNeoEB', Arial, sans-serif;
+}
+
 /* 카드 디자인 */
 
 .card {
